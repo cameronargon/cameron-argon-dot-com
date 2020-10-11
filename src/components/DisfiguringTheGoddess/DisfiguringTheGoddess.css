@@ -1,0 +1,81 @@
+.BusinessList {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin: 4.4rem 10%;
+}
+.dtg {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-between; */
+  /* width: 16.66rem; */
+  /* margin: 0 0.5rem 2.3rem 0.5rem; */
+  /* height: 166px; */
+  display: block;
+  margin: 1 auto;
+  padding: 1px;
+  background: purple;
+  float: inline-start;
+}
+
+.playerNew {
+  padding: 100px;
+  margin: 10px;
+}
+
+.divBox {
+  border: dotted 2px red;
+  margin: 10px;
+}
+
+.merchStore {
+  display: list-item;
+}
+
+#nav {
+  /* background: red; */
+  border: dotted 2px red;
+  height: fit-content;
+  font-size: 5vmin;
+}
+
+.header {
+  letter-spacing: 20px;
+  text-transform: capitalize;
+}
+#header {
+  letter-spacing: 20px;
+}
+.player {
+  height: 450px;
+  background: red;
+}
+.youtube {
+  height: 315px;
+  background: purple;
+}
+.footer {
+  text-align: center;
+}
+
+iframe {
+  display: block;
+  margin: 0 auto;
+}
+
+.passage {
+  text-align: center;
+}
+
+a:link {
+  color: rgb(153, 0, 255);
+}
+a:visited {
+  color: rgb(43, 10, 43);
+}
+a:hover {
+  color: rgb(187, 110, 110);
+}
+a:active {
+  color: green;
+}

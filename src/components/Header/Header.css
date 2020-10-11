@@ -1,0 +1,24 @@
+.navbar {
+  background: rgba(70, 22, 158, 0.404);
+
+  z-index: 5;
+  /* padding: 100px; */
+  position: fixed;
+  /* width: 100%; */
+
+  top: 80px;
+
+  /* @media (min-width: 600px) {
+  } */
+}
+.navbar li {
+  text-align: left;
+  color: #fff;
+  font-weight: 600;
+  font-size: 12px;
+  /* display: block; */
+  /* width: 80px; */
+  top: 80px;
+  left: auto;
+  list-style: none;
+}

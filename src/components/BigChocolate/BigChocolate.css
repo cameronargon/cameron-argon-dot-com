@@ -1,0 +1,23 @@
+.bc {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  /* width: 16.66rem; */
+  /* margin: 0 0.5rem 2.3rem 0.5rem; */
+  /* height: 166px; */
+  display: block;
+  margin: 1 auto;
+  padding: 20px;
+  background: red;
+  float: inline-start;
+}
+
+.playerNew {
+  padding: 10px;
+  margin: 10px;
+  /* width: 100%; */
+  height: 10%;
+  /* display: flex; */
+  flex-direction: column;
+  justify-content: space-between;
+}
