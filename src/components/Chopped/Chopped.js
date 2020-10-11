@@ -29,6 +29,7 @@ export class Chopped extends React.Component {
         <h1>Chocc'd & Screwed</h1>
         <div className="playerNew">
           {choccdThings.vol1}
+          <a href="https://bigchocolate.bandcamp.com/album/choccd-screwed-vol-1-2" target="_blank">~*Download on Bandcamp*~</a>
         </div>
         <div class="header">
           <p class="passage">choccd vol 1 (2018)</p>
@@ -37,6 +38,7 @@ export class Chopped extends React.Component {
         <div class="youtube">
           {choccdThings.BM4}
         </div>
+        
       </div>
     );
   }

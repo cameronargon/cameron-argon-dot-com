@@ -41,7 +41,8 @@ export class DisfiguringTheGoddess extends React.Component {
         <a href="https://www.shopbenchmark.com/disfiguringthegoddess/" target="_blank">
         <h2>Merch Store</h2>
         <img src="./dtg_merchMock.jpg" alt='dtg store'></img>
-        </a>
+        </a> <br></br>
+        <a href="https://disfiguringthegoddess.bandcamp.com/" target="_blank">~*Download DTG Catalog on Bandcamp*~</a>
         </div>
       </div>
       

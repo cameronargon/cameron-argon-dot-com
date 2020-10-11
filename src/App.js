@@ -8,7 +8,9 @@ import BigChocolate from "./components/BigChocolate/BigChocolate";
 import Header from "./components/Header/Header";
 import Chopped from "./components/Chopped/Chopped";
 import DjMixes from "./components/DjMixes/DjMixes";
+import Contact from "./components/Contact/Contact";
 import { Link, animateScroll as scroll } from "react-scroll";
+
 
 function App() {
   return (
@@ -24,7 +26,7 @@ function App() {
         <DisfiguringTheGoddess />
         <DjMixes />
         <Chopped />
-        
+        <Contact/>
       </div>
     </>
   );

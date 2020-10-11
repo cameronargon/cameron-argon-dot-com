@@ -59,6 +59,20 @@ const links = {
       </Link>
     </li>
   ),
+  contact: (
+    <li className="nav-item">
+      <Link
+        className="nav-link"
+        to="contactLocation"
+        spy={true}
+        smooth={true}
+        offset={-70}
+        duration={500}
+      >
+        Contact
+      </Link>
+    </li>
+  ),
 };
 
 export class Navbar extends Component {
@@ -71,6 +85,7 @@ export class Navbar extends Component {
             {links.disfiguring}
             {links.djMixes}
             {links.choccd}
+            {links.contact}
           </ul>
         </div>
       </nav>
